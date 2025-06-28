@@ -31,4 +31,4 @@ galaxy_info:
     #       Maximum 20 tags per role.
 
 dependencies:
-- { role: 'ansible-role-Remmina-RDP', when: rdp_client == 'Remmina' }
+- { role: 'ansible-role-Remmina-RDP-Connection', when: rdp_client == 'Remmina' }
